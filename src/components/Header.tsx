@@ -1,7 +1,7 @@
 // src/components/Header.tsx
 import { NavLink } from "react-router-dom";
 
-const Header = (): JSX.Element => {
+const Header = ()  => {
   
   // Definimos la función de estilos con tipado explícito
   const linkStyles = ({ isActive }: { isActive: boolean }): string => {
@@ -20,12 +20,12 @@ const Header = (): JSX.Element => {
         <ul className="flex gap-6 font-medium">
           <li>
             <NavLink to="/" end className={linkStyles}>
-              /home
+              /Home
             </NavLink>
           </li>
           <li>
             <NavLink to="/projects" className={linkStyles}>
-              /projects
+              /Projects
             </NavLink>
           </li>
           <li>

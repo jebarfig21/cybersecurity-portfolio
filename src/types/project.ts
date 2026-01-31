@@ -6,7 +6,8 @@
 export type ProjectCategory =
   | "Development"
   | "Cybersecurity"
-  | "DevSecOps";
+  | "DevSecOps"
+  | "Machine Learning";
 
 /**
  * Core Project entity.

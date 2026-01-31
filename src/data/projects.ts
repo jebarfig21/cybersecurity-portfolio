@@ -13,37 +13,46 @@ import type { Project } from "../types/project";
 export const projectsData: Project[] = [
   {
     id: 1,
-    title: "DevSecOps BABALU Portfolio (This Website)",
+    title: "Security Software Portfolio (This Website)",
     description:
-      "Modern SPA built with React, TypeScript, and Tailwind CSS. Focused on clean architecture, performance, and scalable UI composition.",
+      "Full-stack portfolio built with React, Tailwind & Node.js. Showcases modern, responsive UI, reusable components, and scalable backend architecture. A clean, professional hub for my projects & coding expertise",
     category: "Development",
     techStack: ["react", "tailwind", "node"],
     links: {
-      github: "https://github.com/your-user/portfolio",
-      demo: "https://your-portfolio.com",
+      github: "https://github.com/jebarfig21/cybersecurity-portfolio",
+      demo: "https://portfolio.jbarajas.com/",
     },
   },
   {
     id: 2,
-    title: "Python Recon Automation Toolkit",
+    title: "Restaurant Landing Page",
     description:
-      "Python-based automation tool orchestrating Nmap, Sublist3r, and Gobuster to streamline the reconnaissance phase in penetration testing.",
-    category: "Cybersecurity",
-    techStack: ["python", "kali", "terminal"],
+      "Full-featured restaurant web app built with React, Tailwind & Node.js. Users can view menus, make reservations, and explore a polished landing page. Modern, responsive design with scalable backend and seamless UX.",
+    category: "Development",
+    techStack: ["Java", "CSS", "HTML"],
     links: {
-      github: "https://github.com/your-user/recon-script",
-      writeup: "https://your-blog.com/recon-automation",
+      github: "https://github.com/jebarfig21/restaurant_app",
+      demo: "https://restaurant.jbarajas.com/",
     },
   },
   {
     id: 3,
-    title: "Secure CI/CD Pipeline with Docker",
-    description:
-      "GitHub Actions pipeline integrating SAST and Docker image vulnerability scanning prior to deployment.",
+    title: "N8N Workflow Automation Hub (Coming Soon)",
+    description: "Workflow automation project built with N8N, integrating multiple APIs and services to automate repetitive tasks. Includes real-time notifications, logging, and dashboard metrics. Designed to showcase scalable automation and process optimization skills.",
     category: "DevSecOps",
-    techStack: ["docker", "github"],
+    techStack: ["N8N", "Node.js", "APIs", "Webhook Integrations"],
     links: {
-      github: "https://github.com/your-user/secure-pipeline-demo",
-    },
+    }
   },
+    {
+    id: 4,
+    title: "Amazon recommendation system",
+    description: "This project involves recommending the best Amazon products available to users based on past rating data using recommendation systems techniques. Part of MIT certificate",
+    category: "Machine Learning",
+    techStack: ["Python", "IA"],
+    links: {
+     
+    }
+  },
+  
 ];

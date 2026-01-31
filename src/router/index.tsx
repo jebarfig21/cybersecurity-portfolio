@@ -4,6 +4,7 @@ import Layout from "@/components/Layout";
 import Home from "@/pages/Home";      // Asegúrate de crear este archivo
 import Projects from "@/pages/Projects"; // Asegúrate de crear este archivo
 import TalksAndPubs from "@/pages/TalksAndPubs"; // Asegúrate de crear este archivo
+import ComingSoon from "@/pages/ComingSoon";
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
       {
         path: "talksAndPubs",
         element: <TalksAndPubs />,
+      },
+        {
+        path: "comingSoon",
+        element: <ComingSoon />,
       }
       // Add routes
     ],

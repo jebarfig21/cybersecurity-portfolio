@@ -11,64 +11,27 @@ import type { Publication } from "@/types/publication";
 export const publicationsData: Publication[] = [
   {
     id: 1,
-    title: "Secure Video Streaming in IoT Environments",
+    title: "The Dark Side of Awareness: How Internal Phishing Can Save Your Companys",
     summary:
-      "Conference talk focused on the challenges of securing real-time video streams in IoT devices, including transport-layer weaknesses and proprietary encryption mechanisms.",
+      "Cybersecurity talk focused on deploying local phishing exercises for companies using free software and free CPA cloud technologies",
     type: "Talk",
-    event: "Latin American Cybersecurity Conference 2024",
-    date: "2024-09-18",
+    event: "BugCon 2023",
+    date: "2023-11-20",
     links: {
-      url: "https://conference-site.com/talks/secure-video-streaming",
-      slides: "https://slides.com/your-user/secure-video-streaming",
-      video: "https://youtube.com/watch?v=example",
+      url: "https://bugcon.org/",
+     
     },
   },
   {
     id: 2,
-    title: "Automating Reconnaissance in Modern Penetration Testing",
+    title: "Vulnerability Analysis of WiFi Video Surveillance Systems",
     summary:
-      "Technical blog post describing how to automate the reconnaissance phase in pentesting using Python, Nmap, and open-source tooling.",
-    type: "Blog",
-    platform: "Medium",
-    date: "2024-06-10",
-    links: {
-      url: "https://medium.com/@your-user/automating-reconnaissance",
-    },
-  },
-  {
-    id: 3,
-    title: "Designing Secure CI/CD Pipelines with DevSecOps Principles",
-    summary:
-      "Article exploring how to integrate security controls into CI/CD pipelines, including SAST, dependency scanning, and container security.",
+      "Thesis to obtain the bachelor's degree focused on analyzing the vulnerability of a TP-Link video camera, the pdf will be public later",
     type: "Article",
-    platform: "Medium",
-    date: "2024-04-02",
+    platform: "Tesis UNAM",
+    date: "2026",
     links: {
-      url: "https://medium.com/@your-user/secure-cicd-devsecops",
+      url:  "https://portfolio.jbarajas.com/comingSoon"
     },
   },
-  {
-    id: 4,
-    title: "Threat Modeling for Small Engineering Teams",
-    summary:
-      "Practical guide to implementing lightweight threat modeling processes in small or fast-moving engineering teams.",
-    type: "Blog",
-    platform: "Medium",
-    date: "2023-12-15",
-    links: {
-      url: "https://medium.com/@your-user/threat-modeling-small-teams",
-    },
-  },
-  {
-    id: 5,
-    title: "Analysis of Unencrypted Video Transmission in Consumer IoT Devices",
-    summary:
-      "Undergraduate thesis analyzing insecure video transmission mechanisms in consumer-grade IoT cameras, highlighting risks and mitigation strategies.",
-    type: "Article",
-    platform: "Bachelor Thesis",
-    date: "2022-07-01",
-    links: {
-      url: "https://your-university.edu/thesis/your-thesis-id",
-    },
-  },
-];
+  ];
