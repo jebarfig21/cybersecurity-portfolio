@@ -42,6 +42,7 @@ export const projectsData: Project[] = [
     category: "DevSecOps",
     techStack: ["N8N", "Node.js", "APIs", "Webhook Integrations"],
     links: {
+      demo: "https://portfolio.jbarajas.com/comingSoon"
     }
   },
     {
