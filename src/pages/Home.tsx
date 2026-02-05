@@ -1,5 +1,6 @@
 import ProjectCard from "@/components/projects/ProjectCard";
 import { projectsData } from "@/data/projects";
+import { NavLink } from "react-router-dom";
 
 /**
  * Home page
@@ -34,19 +35,13 @@ const Home = () => {
 
         {/* CTAs */}
         <div className="flex justify-center gap-4 mt-10">
-          <a
-            href="/projects"
-            className="px-6 py-3 rounded-lg bg-cyan-500 text-slate-900 font-medium hover:bg-cyan-400 transition"
-          >
-            View Projects
-          </a>
-
-          <a
-            href="/talksAndPubs"
-            className="px-6 py-3 rounded-lg border border-slate-700 text-slate-300 hover:border-cyan-400 hover:text-white transition"
-          >
-            Talks & Publications
-          </a>
+            <NavLink to="/projects" end>
+              Projects
+            </NavLink>
+     
+              <NavLink to="/talksAndPubs" end>
+               Talks And Publications Happy
+            </NavLink>
         </div>
       </section>
 
@@ -71,12 +66,10 @@ const Home = () => {
 
         {/* Link to all projects */}
         <div className="text-center mt-10">
-          <a
-            href="/projects"
-            className="text-cyan-400 hover:text-cyan-300 text-sm font-medium"
-          >
-            View all projects →
-          </a>
+                 <NavLink to="/talksAndPubs" end>
+              /Talks And Publications
+            </NavLink>
+     
         </div>
       </section>
 
